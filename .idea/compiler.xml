@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="http" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="http" target="1.8" />
+=======
+        <module name="converter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="converter" target="1.8" />
+>>>>>>> c0aff0979a25040b270b3b8bae6457e84c19d614
     </bytecodeTargetLevel>
   </component>
 </project>
