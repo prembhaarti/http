@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/http.iml" filepath="$PROJECT_DIR$/http.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/converter.iml" filepath="$PROJECT_DIR$/converter.iml" />
->>>>>>> c0aff0979a25040b270b3b8bae6457e84c19d614
     </modules>
   </component>
 </project>

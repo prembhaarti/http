@@ -5,21 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.love</groupId>
-<<<<<<< HEAD
     <artifactId>http</artifactId>
-    <version>0.0.1</version>
-=======
-    <artifactId>converter</artifactId>
     <version>0.0.1</version>
     <properties>
         <jackson.version>2.9.3</jackson.version>
     </properties>
->>>>>>> c0aff0979a25040b270b3b8bae6457e84c19d614
 
     <dependencies>
 
         <dependency>
-<<<<<<< HEAD
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.10</version>
@@ -35,7 +29,8 @@
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client-jackson2</artifactId>
             <version>1.32.1</version>
-=======
+        </dependency>
+        <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
             <version>${jackson.version}</version>
@@ -52,16 +47,11 @@
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jdk8</artifactId>
             <version>${jackson.version}</version>
->>>>>>> c0aff0979a25040b270b3b8bae6457e84c19d614
         </dependency>
 
         <dependency>
             <groupId>com.love</groupId>
-<<<<<<< HEAD
-            <artifactId>converter</artifactId>
-=======
             <artifactId>core</artifactId>
->>>>>>> c0aff0979a25040b270b3b8bae6457e84c19d614
             <version>0.0.1</version>
         </dependency>
     </dependencies>
@@ -75,10 +65,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-<<<<<<< HEAD
-
-=======
->>>>>>> c0aff0979a25040b270b3b8bae6457e84c19d614
                 </configuration>
             </plugin>
         </plugins>
